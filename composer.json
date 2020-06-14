@@ -1,6 +1,6 @@
 {
     "name": "hogus/laravel-schema-mysql-extend",
-    "description": "laravel schema mysql extend",
+    "description": "laravel schema mysql and postgres extend",
     "license": "MIT",
     "authors": [
         {
@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hogus\\LaravelSchemaMysqlExtend\\MySqlGrammarServiceProvider"
+                "Hogus\\LaravelSchemaMysqlExtend\\GrammarServiceProvider"
             ]
         }
     }
